@@ -5,6 +5,13 @@
         <title>{% block title %}Welcome!{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+       <script src="{{ asset('js/jquery-3.0.0.min.js') }}"></script>
+	   <script src="{{ asset('js/jquery-ui.min.js') }}"></script>
+       <script src="{{ asset('js/main.js') }}"></script>
+       <link rel="stylesheet" href=" {{asset('css/main.css')}} " />
+       <link rel="stylesheet" href=" {{asset('css/jquery-ui.min.css')}} " />
+     <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     </head>
     <body>
         {% block body %}{% endblock %}

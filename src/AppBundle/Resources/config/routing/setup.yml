@@ -1,0 +1,11 @@
+setup_index:
+    path:     /
+    defaults: { _controller: "AppBundle:Setup:index" }
+    methods:  GET
+setup_json:
+    path:     /{id}/json
+    defaults: { _controller: "AppBundle:Setup:json" }
+    methods:  GET
+setup_create:
+    path:     /create
+    defaults: { _controller: "AppBundle:Setup:create" }

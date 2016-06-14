@@ -1,0 +1,4 @@
+app_setup:
+    resource: "@AppBundle/Resources/config/routing/setup.yml"
+    prefix:   /setup
+    
